@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ff7978;
+    color: white;
+}
+
+@media screen and (max-width:992px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background-color: brown;
+        color: white;
+    }
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
